@@ -3,19 +3,39 @@ body {
 }
 
 header {
-    background-color: #5a945c;
+    background-color: #aee073;
     color: white;
-    padding: 10px;
-}
-
-nav ul {
-    list-style-type: none;
+    padding: 10px 0;
     text-align: center;
 }
 
+header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header h1 img {
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    margin: 0 10px;
+}
+
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 .carousel img {
